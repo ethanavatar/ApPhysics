@@ -19,4 +19,9 @@ A: It is. But I like formalizing and archiving my work.
 ## Bullseye Lab
 
 [`[source]`](bullseye_lab.hs)
-[`[paper]`](papers/bullseye_lab.pdf)
+
+Paper: [`[pdf]`](papers/bullseye_lab.pdf) [`[docx]`](papers/bullseye_lab.docx)
+
+## TODO
+
+- learn TeX and port all the papers to it
