@@ -8,19 +8,19 @@ import PhysicsLib
 main :: IO ()
 main = undefined
 
-mean :: [Scalar] -> Scalar
+mean :: [Scalar] -> Scalar -- mean of a list of scalars
 mean xs = sum xs / fromIntegral (length xs)
 
-mmtom :: Scalar -> Scalar
+mmtom :: Scalar -> Scalar -- convert milimeters to meters
 mmtom x = x / 1000
 
-cmtom :: Scalar -> Scalar
+cmtom :: Scalar -> Scalar -- convert centimeters to meters
 cmtom x = x / 100
 
-mstos :: Scalar -> Scalar
+mstos :: Scalar -> Scalar -- convert miliseconds to seconds
 mstos x = x / 1000
 
-airtime :: Scalar -> Scalar
+airtime :: Scalar -> Scalar -- calculate the time an object is in the air when dropped from a height (h0)
 airtime h0 = sqrt (2 * h0 / gm)
 -----------------------------
 
@@ -28,7 +28,6 @@ airtime h0 = sqrt (2 * h0 / gm)
 --  the ball passing through the photogate
 ts :: [Scalar] -- ms
 ts = [23.1, 23.6, 23.8, 23.0] 
-
 
 -- The mean time to reduce potential error
 t :: Scalar -- ms -> s

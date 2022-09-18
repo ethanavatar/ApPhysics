@@ -1,8 +1,16 @@
 # ApPhysics
 
-A haskell library I use as a scratchpad for physics labs.
+A Haskell library I use as a scratchpad for physics labs.
 
-Why haskell? Because I like pain.
+## Rationale
+
+Q: Why Haskell?
+
+A: Because I like pain.
+
+Q: This seems like a lot of unnecessary work.
+
+A: It is. But I like formalizing and archiving my work.
 
 ## Contents
 
@@ -11,3 +19,4 @@ Why haskell? Because I like pain.
 ## Bullseye Lab
 
 [`[source]`](bullseye_lab.hs)
+[`[paper]`](papers/bullseye_lab.pdf)
