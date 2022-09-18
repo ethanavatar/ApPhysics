@@ -10,7 +10,7 @@ A: Because I like pain.
 
 Q: This seems like a lot of unnecessary work.
 
-A: It is. But I like formalizing and archiving my work.
+A: It is. But I like formalizing and archiving my work. And I learn some extra stuff along the way.
 
 ## Contents
 
